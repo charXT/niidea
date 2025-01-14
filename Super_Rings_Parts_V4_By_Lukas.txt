@@ -413,6 +413,3 @@ local function SendChatMessage(message)
         game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
     end
 end
-
--- Send the chat message
-SendChatMessage("Super Ring Parts V4 By lukas")
